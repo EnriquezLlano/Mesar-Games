@@ -75,7 +75,7 @@ const productos = [
     descripcion: "Juego de estrategia y comercio en una isla de recursos.",
     precio: 18500, stock: 4, categoria: "Estrategia",
     jugadores_min: 3, jugadores_max: 4, edad_minima: 10,
-    imagen_url: "../imagenes/catan.jpg", id_vendedor: 1,
+    imagen_url: "imagenes/catan.jpg", id_vendedor: 1,
     fecha_publicacion: "2025-01-10", estado: "disponible"
   },
   {
@@ -83,7 +83,7 @@ const productos = [
     descripcion: "Conecta ciudades del mundo con rutas ferroviarias.",
     precio: 21000, stock: 2, categoria: "Familiar",
     jugadores_min: 2, jugadores_max: 5, edad_minima: 8,
-    imagen_url: "../imagenes/ticket_to_ride.webp", id_vendedor: 1,
+    imagen_url: "imagenes/ticket_to_ride.webp", id_vendedor: 1,
     fecha_publicacion: "2025-01-15", estado: "disponible"
   },
   {
@@ -91,7 +91,7 @@ const productos = [
     descripcion: "Cooperativo donde los jugadores deben frenar enfermedades globales.",
     precio: 19000, stock: 0, categoria: "Cooperativo",
     jugadores_min: 2, jugadores_max: 4, edad_minima: 8,
-    imagen_url: "../imagenes/pandemic.webp", id_vendedor: 2,
+    imagen_url: "imagenes/pandemic.webp", id_vendedor: 2,
     fecha_publicacion: "2025-02-01", estado: "agotado"
   },
   {
@@ -99,7 +99,7 @@ const productos = [
     descripcion: "Juego narrativo de cartas con ilustraciones surrealistas.",
     precio: 15500, stock: 6, categoria: "Familiar",
     jugadores_min: 3, jugadores_max: 6, edad_minima: 8,
-    imagen_url: "../imagenes/dixit.webp", id_vendedor: 2,
+    imagen_url: "imagenes/dixit.webp", id_vendedor: 2,
     fecha_publicacion: "2025-02-10", estado: "disponible"
   },
   {
@@ -107,7 +107,7 @@ const productos = [
     descripcion: "Dungeon crawler cooperativo con campaña persistente.",
     precio: 54000, stock: 1, categoria: "RPG",
     jugadores_min: 1, jugadores_max: 4, edad_minima: 14,
-    imagen_url: "../imagenes/gloomhaven.webp", id_vendedor: 1,
+    imagen_url: "imagenes/gloomhaven.webp", id_vendedor: 1,
     fecha_publicacion: "2025-03-05", estado: "disponible"
   },
   {
@@ -115,7 +115,7 @@ const productos = [
     descripcion: "Drafting de cartas para construir la civilización más poderosa.",
     precio: 17000, stock: 3, categoria: "Estrategia",
     jugadores_min: 2, jugadores_max: 7, edad_minima: 10,
-    imagen_url: "../imagenes/seven_wonders.webp", id_vendedor: 2,
+    imagen_url: "imagenes/seven_wonders.webp", id_vendedor: 2,
     fecha_publicacion: "2025-03-20", estado: "disponible"
   }
 ];
