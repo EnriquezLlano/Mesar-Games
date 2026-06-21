@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mesar Games — Catálogo</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header>
+    <span class="header-logo"><span>Mesar</span> Games</span>
+    <nav>
+      <a href="index.html">Catálogo</a>
+      <a href="publicar.html">Publicar</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="catalogo-controles">
+      <input
+        type="text"
+        id="input-busqueda"
+        class="input-busqueda"
+        placeholder="Buscar producto..."
+      />
+      <select id="select-categoria" class="select-control">
+        <option value="">Todas las categorías</option>
+        <option value="Estrategia">Estrategia</option>
+        <option value="Familiar">Familiar</option>
+        <option value="Cooperativo">Cooperativo</option>
+        <option value="RPG">RPG</option>
+      </select>
+      <select id="select-orden" class="select-control">
+        <option value="">Sin ordenar</option>
+        <option value="asc">Precio: menor a mayor</option>
+        <option value="desc">Precio: mayor a menor</option>
+      </select>
+    </div>
+
+    <div id="catalogo-grid" class="catalogo-grid">
+      <!-- Las tarjetas se renderizan dinámicamente desde ui.js -->
+    </div>
+  </main>
+
+  <footer>
+    <p>Mesar Games &copy; 2025 — E-commerce de juegos de mesa</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
